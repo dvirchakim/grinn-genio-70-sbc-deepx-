@@ -1,0 +1,57 @@
+# Yocto Build Artifacts
+build/
+downloads/
+sstate-cache/
+tmp/
+*.tar.gz
+*.tar.xz
+*.zip
+
+# Transfer Package
+transfer_package/*.tar.gz
+transfer_package/*.tar.xz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Large binary files (keep documentation only)
+*.img
+*.wic
+*.dxnn
+*.onnx
+*.pt
+
+# Windsurf
+.windsurf/
+
+# Credentials
+*.key
+*.pem
+*.crt
